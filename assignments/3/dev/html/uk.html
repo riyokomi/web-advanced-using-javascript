@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>the U.K.</title>
+	<link rel="stylesheet" href="css/main.css"> 
+	<script src="js/rest.js"></script>
+
+</head>
+
+
+<body>
+
+<!--menu-->
+
+    <div id = "sidebar">
+
+    <div id = "btn" onclick="show(sidebar)">
+    	<span></span>
+    	<span></span>
+    	<span></span>
+    </div>
+    
+      <ul>
+      	<li><a class="active" href='index.html'>HOME</a></li>
+      	<li><a href='history.html'>INTRODUCTION & HISTORY</a></li>
+      	<li><a href='uk.html'>THE U.K.</a></li>
+      	<li>NORTH AMERICA</li>
+      	<li>LATIN AMERICA</li>
+      	<li>AUSTRALIA & NEW ZEALAND</li>
+      	<li><a href='contact.html'>CONTACT</a></li>
+
+        <hr />
+      	<p> by Sunyining Yang @ Spring 2016</p> 
+      </ul>
+
+    </div>
+
+
+
+<!--menu button-->
+<div id="mymenu">
+  <div id="btn_marker"></div>
+  <button id="btn1" onclick="loadContent(this)"><a href="javascript:ReverseDisplay('u1')">Beat Music</a></button>
+  <button id="btn2" onclick="loadContent(this)"><a href="javascript:ReverseDisplay('u2')">The British Invasion</a></button>
+  <button id="btn3" onclick="loadContent(this)"><a href="javascript:ReverseDisplay('u3')">British Blues Boom</a></button>
+  <button id="btn4" onclick="loadContent(this)"><a href="javascript:ReverseDisplay('u4')">British Psychedelia</a></button>
+</div>
+
+
+<div id="mycontent">Content for HTML5</div>
+
+
+<!--show/hide divs-->
+<div id="u1" style="display:block;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Beatles_i_H%C3%B6torgscity_1963.jpg/500px-The_Beatles_i_H%C3%B6torgscity_1963.jpg">
+  <p>In the late 1950s, a flourishing culture of groups began to emerge, often out of the declining skiffle scene, in major urban centres in the UK like Liverpool, Manchester, Birmingham and London. This was particularly true in Liverpool, where it has been estimated that there were around 350 different bands active, often playing ballrooms, concert halls and clubs. Beat bands were heavily influenced by American bands of the era, such as Buddy Holly and the Crickets (from which group the Beatles derived their name), as well as earlier British groups such as the Shadows. <br><br>After the national success of the Beatles in Britain from 1962, a number of Liverpool performers were able to follow them into the charts, including Gerry & the Pacemakers, the Searchers and Cilla Black. Among the most successful beat acts from Birmingham were the Spencer Davis Group and the Moody Blues. From London, the term Tottenham Sound was largely based around the Dave Clark Five, but other London bands that benefited from the beat boom of this era included the Rolling Stones, the Yardbirds and the Kinks. <br><br>The first non-Liverpool, non-Brian Epstein-managed band to break through in the UK were Freddie and the Dreamers, who were based in Manchester, as were Herman's Hermits. The beat movement provided most of the groups responsible for the British invasion of the American pop charts in the period after 1964, and furnished the model for many important developments in pop and rock music.</p>
+</div>
+
+<div id="u2" style="display:none;">
+  <img src="http://1jazz.ru/wp-content/uploads/2014/03/The-Rolling-Stones.jpg">
+  <p>By the end of 1962, the British rock scene had started with beat groups like the Beatles drawing on a wide range of American influences including soul music, rhythm and blues and surf music.Initially, they reinterpreted standard American tunes, playing for dancers doing the twist, for example. These groups eventually infused their original rock compositions with increasingly complex musical ideas and a distinctive sound. In mid-1962 the Rolling Stones started as one of a number of groups increasingly showing blues influence, along with bands like the Animals and the Yardbirds. During 1963, the Beatles and other beat groups, such as the Searchers and the Hollies, achieved great popularity and commercial success in Britain itself.<br><br>
+
+British rock broke through to mainstream popularity in the United States in January 1964 with the success of the Beatles. "I Want to Hold Your Hand" was the band's first No. 1 hit on the Billboard Hot 100 chart, starting the British Invasion of the American music charts.The song entered the chart on January 18, 1964 at No. 45 before it became the No. 1 single for 7 weeks and went on to last a total of 15 weeks in the chart. Their first appearance on The Ed Sullivan Show February 9 is considered a milestone in American pop culture. The broadcast drew an estimated 73 million viewers, at the time a record for an American television program. The Beatles went on to become the biggest selling rock band of all time and they were followed by numerous British bands.<br><br>
+
+The British Invasion helped internationalize the production of rock and roll, opening the door for subsequent British (and Irish) performers to achieve international success.In America it arguably spelled the end of instrumental surf music, vocal girl groups and (for a time) the teen idols, that had dominated the American charts in the late 1950s and '60s.It dented the careers of established R&B acts like Fats Domino and Chubby Checker and even temporarily derailed the chart success of surviving rock and roll acts, including Elvis Presley.The British Invasion also played a major part in the rise of a distinct genre of rock music, and cemented the primacy of the rock group, based on guitars and drums and producing their own material as singer-songwriters.</p>
+</div>
+
+<div id="u3" style="display:none;">
+  <img src="http://ultimateclassicrock.com/files/2013/03/clapton-Express-Hulton.jpg">
+  <p>In parallel with Beat music, in the late 1950s and early 1960s a British blues scene was developing recreating the sounds of American R&B and later particularly the sounds of bluesmen Robert Johnson, Howling Wolf and Muddy Waters. 
+  <br><br>
+  It reached its height of mainstream popularity in the 1960s, when it developed a distinctive and influential style dominated by electric guitar and made international stars of several proponents of the genre including the Rolling Stones, Eric Clapton, the Yardbirds, Fleetwood Mac and Led Zeppelin.<br><br>
+
+A number of these moved through blues-rock to different forms of rock music and as a result British blues helped to form many of the subgenres of rock, including psychedelic rock and heavy metal music. Since then direct interest in the blues in Britain has declined, but many of the key performers have returned to it in recent years, new acts have emerged and there have been a renewed interest in the genre.
+
+</p>
+</div>
+
+<div id="u4" style="display:none;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cream_Clapton_Bruce_Baker_1960s.jpg/440px-Cream_Clapton_Bruce_Baker_1960s.jpg">
+  <p>British psychedelia emerged during the mid-1960s, was influenced by psychedelic culture and attempted to replicate and enhance the mind-altering experiences of hallucinogenic drugs. 
+  <br><br>
+  The movement drew on non-Western sources such as Indian music's ragas and sitars as well as studio effects and long instrumental passages and surreal lyrics. Established British artists such as Eric Burdon, the Who, Cream, Pink Floyd and the Beatles produced a number of highly psychedelic tunes during the decade. 
+  <br><br>
+  Many British psychedelia bands of the 1960s never published their music and only appeared in live concerts during that time.</p>
+</div>
+
+</body>
+
+</html>
+
+
+

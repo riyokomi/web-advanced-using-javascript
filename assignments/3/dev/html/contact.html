@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/rest.js"></script>
+	<!--<script src="js/jquery-2.2.3.js"></script>-->
+</head>
+
+
+<body>
+
+<!--menu-->
+
+    <div id = "sidebar">
+
+    <div id = "btn" onclick="show(sidebar)">
+    	<span></span>
+    	<span></span>
+    	<span></span>
+    </div>
+    
+      <ul>
+      	<li><a class="active" href='index.html'>HOME</a></li>
+      	<li><a href='history.html'>INTRODUCTION & HISTORY</a></li>
+      	<li><a href='uk.html'>THE U.K.</a></li>
+      	<li>NORTH AMERICA</li>
+      	<li>LATIN AMERICA</li>
+      	<li>AUSTRALIA & NEW ZEALAND</li>
+      	<li><a href='contact.html'>CONTACT</a></li>
+
+        <hr />
+      	<p> by Sunyining Yang @ Spring 2016</p> 
+      </ul>
+
+    </div>
+
+  
+
+  <!--contactbox-->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    
+    <form>
+        <div class="field name-box">
+            <input type="text" id="name" placeholder="Who Are You?"/>
+            <label for="name">Name</label>
+            <span class="ss-icon">check</span>
+        </div>
+
+        <div class="field email-box">
+            <input type="text" id="email" placeholder="name@email.com"/>
+            <label for="email">Email</label>
+            <span class="ss-icon">check</span>
+        </div>
+
+        <div class="field msg-box">
+            <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+            <label for="msg">Msg</label>
+            <span class="ss-icon">check</span>
+        </div>
+
+        <input class="button" type="submit" value="Send" />
+  </form>
+</section>
+   
+
+</body>
+
+</html>
+
+
+
